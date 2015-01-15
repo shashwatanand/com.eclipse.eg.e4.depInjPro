@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.eclipse.eg.e4.depInjPro"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="clearPersistedState"
+               value="true">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/com.eclipse.eg.e4.depInjPro/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="com.eclipse.eg.e4.depInjPro">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
